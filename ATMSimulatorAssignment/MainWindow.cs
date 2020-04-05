@@ -29,10 +29,10 @@ namespace ATMSimulatorAssignment
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Close();
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void DataSafeCheckBox_CheckedChanged(object sender, EventArgs e)
         {
 
         }
