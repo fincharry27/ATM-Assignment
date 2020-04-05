@@ -34,7 +34,7 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.LaunchButton = new System.Windows.Forms.Button();
             this.ExitButton = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.DataSafeCheckBox = new System.Windows.Forms.CheckBox();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -92,24 +92,24 @@
             this.ExitButton.UseVisualStyleBackColor = true;
             this.ExitButton.Click += new System.EventHandler(this.ExitButton_Click);
             // 
-            // checkBox1
+            // DataSafeCheckBox
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBox1.Location = new System.Drawing.Point(12, 141);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(216, 21);
-            this.checkBox1.TabIndex = 3;
-            this.checkBox1.Text = "Enable data safe mode";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            this.DataSafeCheckBox.AutoSize = true;
+            this.DataSafeCheckBox.Font = new System.Drawing.Font("Courier New", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataSafeCheckBox.Location = new System.Drawing.Point(12, 141);
+            this.DataSafeCheckBox.Name = "DataSafeCheckBox";
+            this.DataSafeCheckBox.Size = new System.Drawing.Size(216, 21);
+            this.DataSafeCheckBox.TabIndex = 3;
+            this.DataSafeCheckBox.Text = "Enable data safe mode";
+            this.DataSafeCheckBox.UseVisualStyleBackColor = true;
+            this.DataSafeCheckBox.CheckedChanged += new System.EventHandler(this.DataSafeCheckBox_CheckedChanged);
             // 
             // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(239, 167);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.DataSafeCheckBox);
             this.Controls.Add(this.ExitButton);
             this.Controls.Add(this.LaunchButton);
             this.Controls.Add(this.menuStrip1);
@@ -131,7 +131,7 @@
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Button LaunchButton;
         private System.Windows.Forms.Button ExitButton;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox DataSafeCheckBox;
     }
 }
 
