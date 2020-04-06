@@ -73,6 +73,8 @@ namespace ATMSimulatorAssignment
             return dataSafe;
         }
 
+        //Methods
+
         //Checks if pin entered by the user matches the account's pin
         public Boolean validatePin(int enteredPin) 
         {
