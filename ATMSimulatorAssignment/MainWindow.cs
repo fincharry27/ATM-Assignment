@@ -47,13 +47,13 @@ namespace ATMSimulatorAssignment
 
         private void LaunchButton_Click(object sender, EventArgs e)
         {
-            if (Program.Debug == 0)
+            if (Program.Debug == "0")
             {
                 var newForm = new LoginScreen();
                 newForm.Show();
                 this.Hide();
             }
-            else if (Program.Debug == 1)
+            else if (Program.Debug == "1")
             {
                 // Add Threadding here
                 var newForm = new LoginScreen();

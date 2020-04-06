@@ -35,11 +35,10 @@ namespace ATMSimulatorAssignment
         {
             //ATM a = new ATM();
             //.someMethod();
-            
-            string firstVal = LogInTextBox.Text;
-            string secondVal = PasswordTextBox.Text;
-            this.Hide();
             Account account = new Account();
+            account.acnumber = LogInTextBox.Text;
+            account.pinnumber = PasswordTextBox.Text;
+            this.Hide();
             account.AccountControl();
         }
 
