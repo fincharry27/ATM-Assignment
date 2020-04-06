@@ -10,10 +10,11 @@ using System.Windows.Forms;
 
 namespace ATMSimulatorAssignment
 {
+
     public partial class LoginScreen : Form
     {
         public LoginScreen()
-        {
+        { 
             InitializeComponent();
         }
 
@@ -28,6 +29,12 @@ namespace ATMSimulatorAssignment
         }
 
         private void LogInButton_Click(object sender, EventArgs e)
+        {
+            //ATM a = new ATM();
+           //.someMethod();
+        }
+
+        private void LoginScreen_Load(object sender, EventArgs e)
         {
 
         }

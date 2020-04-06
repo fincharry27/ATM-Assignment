@@ -1,0 +1,11 @@
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.csprojAssemblyReference.cache
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.ATMWindow.resources
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.LoginScreen.resources
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.MainWindow.resources
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.Properties.Resources.resources
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.csproj.GenerateResource.cache
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.exe.config
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.exe
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.pdb
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.exe
+C:\Users\tkink\source\repos\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.pdb

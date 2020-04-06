@@ -92,6 +92,7 @@
             this.Controls.Add(this.LogInTextBox);
             this.Name = "LoginScreen";
             this.Text = "LoginScreen";
+            this.Load += new System.EventHandler(this.LoginScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -99,8 +100,8 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox LogInTextBox;
-        private System.Windows.Forms.TextBox PasswordTextBox;
+        public System.Windows.Forms.TextBox LogInTextBox;
+        public System.Windows.Forms.TextBox PasswordTextBox;
         private System.Windows.Forms.Label AccountNumberLabel;
         private System.Windows.Forms.Label PinLabel;
         private System.Windows.Forms.Button LogInButton;
