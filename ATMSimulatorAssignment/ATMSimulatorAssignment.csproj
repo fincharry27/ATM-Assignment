@@ -53,6 +53,7 @@
     <Compile Include="ATMWindow.Designer.cs">
       <DependentUpon>ATMWindow.cs</DependentUpon>
     </Compile>
+    <Compile Include="Bank.cs" />
     <Compile Include="LoginScreen.cs">
       <SubType>Form</SubType>
     </Compile>

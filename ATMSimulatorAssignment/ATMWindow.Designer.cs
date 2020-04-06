@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.AccountNumberTextBox = new System.Windows.Forms.TextBox();
             this.MainDisplayBox = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -49,26 +47,9 @@
             this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(125, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Currently active account:";
-            // 
-            // AccountNumberTextBox
-            // 
-            this.AccountNumberTextBox.Location = new System.Drawing.Point(143, 6);
-            this.AccountNumberTextBox.Name = "AccountNumberTextBox";
-            this.AccountNumberTextBox.Size = new System.Drawing.Size(76, 20);
-            this.AccountNumberTextBox.TabIndex = 1;
-            this.AccountNumberTextBox.TextChanged += new System.EventHandler(this.AccountNumberTextBox_TextChanged);
-            // 
             // MainDisplayBox
             // 
-            this.MainDisplayBox.Location = new System.Drawing.Point(14, 51);
+            this.MainDisplayBox.Location = new System.Drawing.Point(12, 25);
             this.MainDisplayBox.Multiline = true;
             this.MainDisplayBox.Name = "MainDisplayBox";
             this.MainDisplayBox.Size = new System.Drawing.Size(225, 126);
@@ -225,7 +206,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 35);
+            this.label3.Location = new System.Drawing.Point(12, 9);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(42, 13);
             this.label3.TabIndex = 18;
@@ -254,8 +235,6 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.MainDisplayBox);
-            this.Controls.Add(this.AccountNumberTextBox);
-            this.Controls.Add(this.label1);
             this.Name = "ATMWindow";
             this.Text = "ATMWindow";
             this.Load += new System.EventHandler(this.ATMWindow_Load);
@@ -265,9 +244,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox AccountNumberTextBox;
         private System.Windows.Forms.TextBox MainDisplayBox;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ATMSimulatorAssignment
@@ -46,7 +39,7 @@ namespace ATMSimulatorAssignment
 
         private void LaunchButton_Click(object sender, EventArgs e)
         {
-            //Add function for launching the atm system
+            Program.openATM();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)
