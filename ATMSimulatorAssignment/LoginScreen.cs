@@ -13,6 +13,9 @@ namespace ATMSimulatorAssignment
 
     public partial class LoginScreen : Form
     {
+        public static int GetfirstVal { get; internal set; }
+        public static int GetsecondVal { get; internal set; }
+
         public LoginScreen()
         { 
             InitializeComponent();
@@ -31,7 +34,13 @@ namespace ATMSimulatorAssignment
         private void LogInButton_Click(object sender, EventArgs e)
         {
             //ATM a = new ATM();
-           //.someMethod();
+            //.someMethod();
+            
+            string firstVal = LogInTextBox.Text;
+            string secondVal = PasswordTextBox.Text;
+            this.Hide();
+            Account account = new Account();
+            account.AccountControl();
         }
 
         private void LoginScreen_Load(object sender, EventArgs e)

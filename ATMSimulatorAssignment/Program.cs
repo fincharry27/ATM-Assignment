@@ -21,6 +21,8 @@ namespace ATMSimulatorAssignment
         static MainWindow LDDebugMenu;
         static LoginScreen LDLogin;
         static ATMWindow LDWindow;
+        static Account LDaccount = new Account();
+        public string General = null;
         // Debug is set to 1 if D
         public static int Debug = 0;
 
@@ -29,15 +31,6 @@ namespace ATMSimulatorAssignment
          * and instanciates the ATM class passing a referance to the account information
          * 
          */
-        public Program()
-        {
-            ac[0] = new Account(300, 1111, 111111);
-            ac[1] = new Account(750, 2222, 222222);
-            ac[2] = new Account(3000, 3333, 333333);
-
-            atm = new ATM(ac);
-
-        }
 
         static void Main(string[] args)
         {
@@ -63,6 +56,10 @@ namespace ATMSimulatorAssignment
                 this.balance = balance;
                 this.pin = pin;
                 this.accountNum = accountNum;
+            }
+
+            public Account()
+            {
             }
 
             //getter and setter functions for balance
@@ -142,13 +139,16 @@ namespace ATMSimulatorAssignment
 
                 TextBox b = Application.OpenForms["LoginScreen"].Controls["LogInTextBox"] as TextBox;
 
+
+
                 this.ac = ac;
 
                 if (activeAccount == this.findAccount())
                 {
                     if (activeAccount.checkPin(this.promptForPin()))
                     {
-                        LDWindow = new ATMWindow();
+
+                        LDWindow = new ATMWindow(); 
                         Application.Run(LDWindow);
                     }
                     else
