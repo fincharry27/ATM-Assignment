@@ -1,0 +1,12 @@
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.exe.config
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.exe
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\bin\Debug\ATMSimulatorAssignment.pdb
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.csprojAssemblyReference.cache
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.ATMWindow.resources
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.LoginScreen.resources
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.MainWindow.resources
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.Properties.Resources.resources
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.csproj.GenerateResource.cache
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.csproj.CoreCompileInputs.cache
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.exe
+D:\_SCHOOL\UNI\COMPUTER SYSTEMS 2B\ATM\git-folder\ATMSimulatorAssignment\obj\Debug\ATMSimulatorAssignment.pdb
